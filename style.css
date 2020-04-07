@@ -1,6 +1,7 @@
+/* HEADER AND NAVBAR STUFF. I used flexbox to get everything in a row */
+
 #header {
   position: sticky;
-
   z-index: 2;
   top: 0px;
   left: 80px;
@@ -13,27 +14,27 @@
   background-color: #ffffff;
 }
 
-#navbar > ul {
+#nav-bar > ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   overflow: hidden;
 }
 
-#navbar > ul > li {
+#nav-bar > ul > li {
   font-family: Bellota, serif;
   margin-top: 10px;
   /* text-align: center; */
   margin-left: 40px;
 }
 
-#navbar > ul > li a {
+#nav-bar > ul > li a {
   color: #4c4c4c;
   text-decoration-line: none;
   font-size: 25px;
 }
 
-#navbar > ul > li a:hover {
+#nav-bar > ul > li a:hover {
   color: #854613;
   text-decoration-line: none;
   font-style: oblique;
