@@ -1,7 +1,57 @@
-#navbar {
-  position: sticky; /* User Story #13: The navbar should always be at the top of the viewport. */
+#header {
+  position: sticky;
+
+  z-index: 2;
+  top: 0px;
+  left: 80px;
+  /* User Story #13: The navbar should always be at the top of the viewport. */
 }
 
+#navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+#navbar > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#navbar > ul > li {
+  font-family: Bellota, serif;
+  margin-top: 10px;
+  /* text-align: center; */
+  margin-left: 40px;
+}
+
+#navbar > ul > li a {
+  color: #4c4c4c;
+  text-decoration-line: none;
+  font-size: 25px;
+}
+
+#navbar > ul > li a:hover {
+  color: #854613;
+  text-decoration-line: none;
+  font-style: oblique;
+}
+
+#header-img {
+  height: 90px;
+  width: 90px;
+}
+
+h1,
+h2 {
+  font-family: Bellota, serif;
+}
+
+p {
+  font-family: Lato, sans-serif;
+}
 /* User Story #14: My product landing page should have at least one media query.
 
 User Story #15: My product landing page should utilize CSS flexbox at least once. */
